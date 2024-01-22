@@ -1,12 +1,38 @@
 .stApp {
-    font-family: 'Calibri', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    font-family: 'Montserrat', sans-serif;
     background-color: #060606;
+    overflow: hidden;
+}
+
+.st-emotion-cache-1n76uvr{
+    margin-top: -70px;
 }
 
 /* .block-container {
     background-color: pink;
 } */
 
-.st-emotion-cache-1n76uvr{
-    margin-top: -70px;
+
+h2 {
+    color: #2d8eff;
+}
+
+div.stButton button {
+    width: 225px;
+    background-color: #4ea9fc;
+    color: white;
+    justify-content: space-around;
+    border: 0px solid #65a9e9;
+    text-align: center;
+}
+
+div.stButton :hover{
+    background-color: #2d8eff;
+    color: white;   
+}
+
+.st-emotion-cache-nbt3vv.ef3psqc13{
+    background-color: #d16875;
+    width: 90px;
 }
