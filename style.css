@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header{visibility: hidden;} 
+
 .stApp {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-    font-family: 'Montserrat', sans-serif;
-    background-color: #060606;
+    /* background-color: #060606; */
+    background-image: url(https://i.imgur.com/GKDADh2.png);
     overflow: hidden;
 }
 
@@ -9,13 +14,37 @@
     margin-top: -70px;
 }
 
-/* .block-container {
-    background-color: pink;
-} */
-
+.block-container {
+    padding-bottom: 100px;
+}
 
 h2 {
-    color: #2d8eff;
+    color: #70b2f0;
+    font-family: 'Poppins', serif;
+    text-align: center;
+    -webkit-text-stroke: .5px black;
+    font-style: bold;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.st-af {
+    box-shadow: white .5px .5px 2px 1px;
+    opacity: 0.7;
+}
+
+.st-emotion-cache-1erivf3 {
+    box-shadow: white .5px .5px 2px 1px;
+    opacity: 0.7;
+}
+.st-emotion-cache-7vf78i.e1b2p2ww15{
+    box-shadow: white .5px .5px 2px 1px;
+    opacity: 0.7;
 }
 
 div.stButton button {
@@ -24,15 +53,40 @@ div.stButton button {
     color: white;
     justify-content: space-around;
     border: 0px solid #65a9e9;
-    text-align: center;
+    box-shadow: white .5px .5px 1px .5px;
+    opacity: 0.7;
+    color: inherit !important; /* Note: The use of !important is added to ensure that this style takes precedence over any default styles.*/
+}
+
+/*This is used to give weight to the text inside the 6 buttons.*/
+div.stButton p{
+    font-weight: 600;
 }
 
 div.stButton :hover{
     background-color: #2d8eff;
-    color: white;   
+    color: white;  
 }
 
-.st-emotion-cache-nbt3vv.ef3psqc13{
-    background-color: #d16875;
-    width: 90px;
+/* This is used to align the button with the text area and give color to it.*/
+[data-testid="baseButton-primary"]{
+    margin-top: 28px;
+    background-color: #db616f!important;
+    width: 90px !important;
+}
+
+[data-testid="baseButton-primary"] :hover{
+    background-color: #db616f!important;
+}
+
+.st-emotion-cache-1wncz92 p {
+    font-weight: 500;
+    color: white;
+    opacity: 0.9;
+}
+
+/*This class is used to style the generated response from the api*/
+.st-emotion-cache-nahz7x {
+    font-family: 'Arial', serif !important;
+    text-align: justify !important;
 }
