@@ -3,7 +3,7 @@
 /* Below 3 lines are used to hide the default header and images which are displayed by default in streamlit. */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-header{visibility: hidden;} 
+header {visibility: hidden;} 
 
 /* This is used to design the overall design of the webpage, similar to body tag which is used to 
 give styling to the complete page at once. */
