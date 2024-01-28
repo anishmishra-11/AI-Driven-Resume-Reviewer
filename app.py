@@ -80,10 +80,11 @@ with col3:
 col4, col5 = st.columns([6.2,1])
 with col4:
     query_text = st.text_input("Ask your Custom Questions : ", key="input_question", placeholder="Type Here")
+
 with col5:
     search_btn = st.button("Search", type="primary")
 
-# Prompts for results.
+#Prompts for Results.
 input_prompt1 = """
  You are an experienced Human Resource Manager with tech experience in the field of Software Development,
  Data Science, Full Stack Web Development, DEVOPS, Data Analyst and Data Engineering roles. Your task is to 
@@ -137,7 +138,7 @@ detailed feedback(in points) on areas for improvement for future job searches. G
 an opportunity to learn from the experience.
 """
 
-if submit1:# what to do when button1 is clicked.
+if submit1:#if button1 is clicked.
     if uploaded_file is not None: # To check if PDF is uploaded or not.
         pdf_content=input_pdf_setup(uploaded_file)
         with st.spinner("Analyzing Your Resume"): # This line is used to implement spinner.
