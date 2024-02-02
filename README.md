@@ -20,6 +20,16 @@ Job application processes can be daunting, and resumes play a crucial role in re
    - **Skills Improvement:** Suggestions for skills enhancement.
    - **Keywords Analysis:** Identification of missing keywords in the resume.
    - **Match Percentage:** A percentage score indicating how well the resume matches the job description.
+   
+## Usage
+
+To explore the AI-Driven Resume Reviewer and Analyzer, either access the [live demo here](https://huggingface.co/spaces/anishmishra11/ai) Use Dark Mode for better User Experience.
+or follow these steps for local deployment:
+
+1. Install all the requirements as per requirements.txt
+2. Generate your api key of google gemini pro vision and store it in a .env file.
+3. Clone the repository to your local machine
+4. Run the app.py file using Streamlit in dark mode.
 
 ## Technologies Used
 
@@ -27,6 +37,7 @@ Job application processes can be daunting, and resumes play a crucial role in re
 - Google Generative AI (Gemini Pro Vision): For processing and analyzing the resume content.
 - PDF2Image: For handling PDF file conversions and image processing.
 - Streamlit: For creating the web application interface.
+- Advanced CSS : For styling the web application UI.
 
 ## Challenges Faced
 
@@ -34,9 +45,6 @@ Job application processes can be daunting, and resumes play a crucial role in re
 - PDF Handling: Efficiently converting PDF content to a format suitable for analysis by the AI model.
 - User Experience Optimization: Creating an intuitive and responsive UI.
 - Enhanced Error Handling: Improve the system's robustness in handling various file formats and user inputs.
-
-##
-
 
 ## Conclusion
 
